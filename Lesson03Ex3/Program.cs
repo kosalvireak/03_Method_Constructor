@@ -41,7 +41,7 @@ namespace Lesson03Ex3
             float balance = float.Parse(Console.ReadLine()); 
 
             accobj = new Account(type,name,balance);
-            Console.WriteLine("Hello {0}! \nYour account is {1} and your Balance is ${2} with Interest rate = ${3}",name,type,balance,accobj.CalInterest());
+            Console.WriteLine("Hello {0}! \nYour account is {1} and your Balance is {2}$ with Interest rate = ${3}",name,type,balance,accobj.CalInterest());
         }
     }
 }
