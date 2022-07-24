@@ -23,8 +23,7 @@ namespace Lesson03Ex3
         }
         public float CalInterest() //d
         {
-            float interest = fltBalance * 0.018f;
-            return interest;
+            return fltBalance * 0.018f;
         }
   
     }
