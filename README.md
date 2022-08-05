@@ -25,7 +25,7 @@ public Rectangle (float GiveMeTheLength, float GiveMeTheBreadth)
      }
 static void Main(string[] args)
 {
-    Obj cat = new Obj(20, 5);
+    Obj cat = new Obj(20, 5);		#instantiation new object "cat"
 }
 ```
 
